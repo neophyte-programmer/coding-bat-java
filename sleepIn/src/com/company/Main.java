@@ -18,7 +18,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-	// write your code here
+	// Test input
         boolean input = sleepIn(false, true);
         if (input) {
             System.out.println("True");

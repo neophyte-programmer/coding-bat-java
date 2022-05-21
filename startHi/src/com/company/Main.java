@@ -19,8 +19,8 @@ public class Main {
         return false;
     }
     public static void main(String[] args) {
-       boolean word = startHi("hello");
-       if (word) {
+       boolean input = startHi("hello");
+       if (input) {
            System.out.println("True");
        }
        else {
