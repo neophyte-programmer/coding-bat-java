@@ -10,6 +10,12 @@ package com.company;
 //        monkeyTrouble(true, false) → false
 
 public class Main {
+    public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
+        if ( (aSmile && bSmile) || (!aSmile && !bSmile) ) {
+            return true;
+        }
+        return false;
+    }
 
     public static void main(String[] args) {
 	// write your code here
